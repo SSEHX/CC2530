@@ -5,27 +5,26 @@
     <configuration>
         <name>Debug</name>
         <outputs>
+            <file>$PROJ_DIR$\include\main.h</file>
             <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
             <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\main.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\timer1.pbd</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
             <file>$PROJ_DIR$\Debug\Exe\timer1.d51</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer1.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
             <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_cc2531F256.xcl</file>
-            <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nlxd-1e16x01.r51</file>
-            <file>$PROJ_DIR$\Debug\List\timer1.map</file>
             <file>$TOOLKIT_DIR$\inc\ioCC2531.h</file>
             <file>$PROJ_DIR$\include\types.h</file>
-            <file>$PROJ_DIR$\include\main.h</file>
+            <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nlxd-1e16x01.r51</file>
+            <file>$PROJ_DIR$\Debug\List\timer1.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 7 10</file>
+                    <file> 3 10</file>
                 </tool>
             </outputs>
         </file>
@@ -33,26 +32,26 @@
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 6</file>
+                    <name>BICOMP</name>
+                    <file> 12</file>
                 </tool>
                 <tool>
-                    <name>BICOMP</name>
+                    <name>ICC8051</name>
                     <file> 5</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 3</file>
+                    <file> 11</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICC8051</name>
-                    <file> 13 11 0 12</file>
+                    <name>BICOMP</name>
+                    <file> 7 1 0 8</file>
                 </tool>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 11 0 13 12</file>
+                    <name>ICC8051</name>
+                    <file> 0 7 1 8</file>
                 </tool>
             </inputs>
         </file>
@@ -67,7 +66,7 @@
             <inputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 8 6 9</file>
+                    <file> 6 5 9</file>
                 </tool>
             </inputs>
         </file>

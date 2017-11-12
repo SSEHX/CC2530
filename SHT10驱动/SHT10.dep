@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>2653428304</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Debug\Obj\IO.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\IO.pbi</file>
+            <file>$PROJ_DIR$\base.h</file>
+            <file>$PROJ_DIR$\SHT10.c</file>
+            <file>$PROJ_DIR$\IO.c</file>
+            <file>$PROJ_DIR$\IO.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\base.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\SHT10.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\IO.__cstat.et</file>
+            <file>$PROJ_DIR$\include\timer.h</file>
+            <file>$PROJ_DIR$\timer.c</file>
+            <file>$PROJ_DIR$\include\types.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SHT10.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\SHT10.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\SHT10.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\SHT10.d51</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+            <file>$PROJ_DIR$\base.c</file>
+            <file>$PROJ_DIR$\include\board.h</file>
+            <file>$PROJ_DIR$\include\base.h</file>
+            <file>$PROJ_DIR$\include\IO.h</file>
+            <file>$PROJ_DIR$\Debug\List\SHT10.map</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl-pli-blxd-1e16x01n.r51</file>
+            <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_cc2531F256_banked.xcl</file>
+            <file>$PROJ_DIR$\include\SHT10.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\board.h</file>
+            <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+            <file>$TOOLKIT_DIR$\inc\ioCC2531.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\base.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\base.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 17 24</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SHT10.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 27 23 13 31 30</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23 13 31 30 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\IO.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 1</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 13 5 31 30 2</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 2 31 5 13 30</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 11 31 30 13 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31 30 11 13 5</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\SHT10.d51</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 26 33 0 34 14 18 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\base.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 8</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 2 13 11 31 30</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13 11 31 30 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 11 31 30 13 5 2 27 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31 2 30 13 5 27 23 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

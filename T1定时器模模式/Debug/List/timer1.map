@@ -2,24 +2,24 @@
 #                                                                              #
 #      IAR Universal Linker V6.4.6.89                                          #
 #                                                                              #
-#           Link time     =  10/Nov/2017  02:04:44                             #
+#           Link time     =  12/Nov/2017  14:20:02                             #
 #           Target CPU    =  x51                                               #
-#           List file     =  C:\Users\ÐíÆì\Desktop\T1¶¨Ê±Æ÷Ä£Ä£Ê½\Debug\List\t #
-#                            imer1.map                                         #
-#           Output file 1 =  C:\Users\ÐíÆì\Desktop\T1¶¨Ê±Æ÷Ä£Ä£Ê½\Debug\Exe\ti #
-#                            mer1.d51                                          #
+#           List file     =  C:\Users\admin\Documents\GitHub\CC2530\T1¶¨Ê±Æ÷Ä£ #
+#                            Ä£Ê½\Debug\List\timer1.map                        #
+#           Output file 1 =  C:\Users\admin\Documents\GitHub\CC2530\T1¶¨Ê±Æ÷Ä£ #
+#                            Ä£Ê½\Debug\Exe\timer1.d51                         #
 #                            Format: ubrof10                                   #
 #                            UBROF version 10.0.6                              #
 #                            Using library modules for C-SPY (-rt)             #
-#           Command line  =  -f C:\Users\ÐíÆì\AppData\Local\Temp\EW65A6.tmp    #
-#                            (C:\Users\ÐíÆì\Desktop\T1¶¨Ê±Æ÷Ä£Ä£Ê½\Debug\Obj\m #
-#                            ain.r51                                           #
+#           Command line  =  -f C:\Users\admin\AppData\Local\Temp\EWF124.tmp   #
+#                            (C:\Users\admin\Documents\GitHub\CC2530\T1¶¨Ê±Æ÷Ä #
+#                            £Ä£Ê½\Debug\Obj\main.r51                          #
 #                            -o                                                #
-#                            C:\Users\ÐíÆì\Desktop\T1¶¨Ê±Æ÷Ä£Ä£Ê½\Debug\Exe\ti #
-#                            mer1.d51                                          #
+#                            C:\Users\admin\Documents\GitHub\CC2530\T1¶¨Ê±Æ÷Ä£ #
+#                            Ä£Ê½\Debug\Exe\timer1.d51                         #
 #                            -l                                                #
-#                            C:\Users\ÐíÆì\Desktop\T1¶¨Ê±Æ÷Ä£Ä£Ê½\Debug\List\t #
-#                            imer1.map                                         #
+#                            C:\Users\admin\Documents\GitHub\CC2530\T1¶¨Ê±Æ÷Ä£ #
+#                            Ä£Ê½\Debug\List\timer1.map                        #
 #                            -xms                                              #
 #                            "-IC:\Program Files (x86)\IAR Systems\Embedded Wo #
 #                            rkbench 8.0\8051\LIB\"                            #
@@ -187,7 +187,7 @@ Absolute parts
            _IDATA0_START           00000000 
     *************************************************************************
 
-  FILE NAME : C:\Users\ÐíÆì\Desktop\T1¶¨Ê±Æ÷Ä£Ä£Ê½\Debug\Obj\main.r51
+  FILE NAME : C:\Users\admin\Documents\GitHub\CC2530\T1¶¨Ê±Æ÷Ä£Ä£Ê½\Debug\Obj\main.r51
   PROGRAM MODULE, NAME : main
 
   SEGMENTS IN THE MODULE
